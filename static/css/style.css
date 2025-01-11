@@ -1,0 +1,19 @@
+#textobg1box{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #582d30d5;
+    padding: 50px;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+#background1 {
+    background-image: url('../img/index.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Garante que a altura da página cubra toda a tela */
+    padding-top: 50px;
+    border-bottom: 4px solid #5c3c3e; /* Borda inferior*/
+    /* margin-bottom: 100px; */
+}
