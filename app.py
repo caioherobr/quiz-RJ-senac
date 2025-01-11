@@ -80,10 +80,10 @@ def resultado():
     """
     pontuacao_final = session.get("score", 0)
     if pontuacao_final >=4:
-        pontuacao_final = "Parabéns"
+        mensagem = "Parabéns"
     else:
-        pontuacao_final = "Tente outra vez"
-    return render_template("resultado.html", pontuacao=pontuacao_final)
+        mensagem = "Tente outra vez"
+    return render_template("resultado.html", pontuacao=mensagem)
 
 if __name__ == "__main__":
     app.run(debug=True)
