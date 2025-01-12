@@ -55,7 +55,7 @@ def pergunta3():
         # Verifique qual opção é correta
         if resposta == "":
             session["score"] += 1
-        return redirect(url_for("resultado"))
+        return redirect(url_for("pergunta4"))
     
     return render_template("pergunta3.html")
 
