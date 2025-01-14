@@ -1,19 +1,92 @@
-#textobg1box{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #582d30d5;
-    padding: 50px;
-    max-width: 600px;
-    box-sizing: border-box;
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+
 }
 
-#background1 {
+.bg1 {
     background-image: url('../img/index.jpg');
-    background-size: cover;
+    backdrop-filter: brightness(60%) blur(4px);
     background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /* Garante que a altura da página cubra toda a tela */
-    padding-top: 50px;
-    border-bottom: 4px solid #5c3c3e; /* Borda inferior*/
-    /* margin-bottom: 100px; */
+    background-size: cover;
+}
+.bg2 {
+    background-image: url('../img/cristo.png');
+    backdrop-filter: brightness(60%) blur(4px);
+    background-position: center;
+    background-size: cover;
+}
+.bg3 {
+    background-image: url('../img/panoramico.jpg');
+    backdrop-filter: brightness(60%) blur(4px);
+    background-position: center;
+    background-size: cover;
+}
+.bg4 {
+    background-image: url('../img/praia.jpg');
+    backdrop-filter: brightness(60%) blur(4px);
+    background-position: center;
+    background-size: cover;
+}
+.bg5 {
+    background-image: url('../img/teleferico.jpg');
+    backdrop-filter: brightness(60%) blur(4px);
+    background-position: center;
+    background-size: cover;
+}
+
+#titulo1 h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    padding: 8px 24px;
+    border-radius: 4px;
+    margin-top: 1.5rem;
+}
+
+.shadow {
+    box-shadow: 10px 5px 5px red;
+        text-shadow: #333;
+}
+
+@media (max-width: 768px) {
+    #titulo1 h1 {
+        font-size: 2rem;
+    }
+    
+    .intro {
+        padding: 1.5rem;
+    }
 }
